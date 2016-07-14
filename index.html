@@ -1,13 +1,28 @@
 <html>
   <head>
     <title>Cellular Automaton</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Slabo+27px" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./lib/cellular_automaton.css" media="screen" />
   </head>
 
   <body>
-    <h1>Flocking Colors</h1>
     <canvas></canvas>
-
+    <section class="instructions">
+      <div class="instruction"><span class="key">r</span>to add "rain"</div>
+      <div class="instruction"><span class="key">s</span>to stop "rain"</div>
+      <div class="instruction"><span class="key">></span>to increase "wind"</div>
+      <div class="instruction"><span class="key"><</span>to decrease "wind"</div>
+    </section>
+    <section class="description">
+      <h1>Living colors</h1>
+      <h2>A visual experiment</h2>
+      <p>Each cell follows three rules: </p>
+      <ul>
+        <li><span class="number">1</span>move toward the average color of its neighbors</li>
+        <li><span class="number">2</span>move toward the average rate of change in colors of its neighbors</li>
+        <li><span class="number">3</span>maintain minimum separation between its color and the colors of its neighbors</li>
+      </ul>
+    </section>
     <script type="application/javascript" src="lib/bundle.js"></script>
   </body>
 </html>

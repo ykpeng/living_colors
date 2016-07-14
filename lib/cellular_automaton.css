@@ -1,4 +1,98 @@
-/*canvas {
-  width: 1000px;
-  height: 600px;
-}*/
+html, body, header, nav, h1, h2, h3, h4, h5, h6, a,
+ul, li, strong, main, button, i,
+section, img, div, p, span, article, footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-family: 'Maison Neue', sans-serif;
+  font-size: 14px;
+  /*font-family: 'Slabo 27px', serif;*/
+  /*font-family: 'Open Sans Condensed', sans-serif;*/
+  text-align: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  box-sizing: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+canvas {
+  margin: 0 auto;
+}
+
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.instructions {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #F1F1F1;
+  border-bottom: 1px solid #F1F1F1;
+}
+
+.instruction {
+  padding: 20px;
+}
+
+.key {
+  padding: 10px 15px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 1px 3px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #EEE #DDD #BBB;
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 0.25rem;
+  margin-right: 10px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.description {
+  text-align: center;
+  /*text-align: left;*/
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /*padding-left: 300px;*/
+  /*color: #fff;*/
+  color: #222;
+  /*background: #222;*/
+}
+
+.description h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #ff5050;
+  letter-spacing: 0.5em;
+}
+
+.description h2 {
+  font-size: 20px;
+  margin-bottom: 60px;
+  letter-spacing: 0.3em;
+}
+.description p {
+  margin-bottom: 20px;
+  font-size: 18;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: #ff5050;
+}
+.description li {
+  margin-bottom: 15px;
+  letter-spacing: 0.1em;
+}
+
+.number {
+  border-radius: 50%;
+  padding: 8px 13px;
+  border: 1px solid #ff5050;
+  margin-right: 10px;
+  color: #ff5050;
+}
