@@ -28,13 +28,13 @@ The result is a vibrant display of color movements that are in constant tension.
 
 ### Bouncing off RGB Limits
 
-When a cell reaches an RGB limit (0 or 255), it can either bounce off smoothly or ricochet to the other end of the RGB spectrum. The former creates gentle movements while the latter creates ripple effects. Users can press "s" and "w", respectively, to alternate between the effects. The document listens to keydown events and passes a boolean into GameView.start() to instruct GameView on what to render.
+When a cell reaches an RGB limit (0 or 255), it can either bounce off smoothly or ricochet to the other end of the RGB spectrum. The former creates gentle movements while the latter creates ripple effects. Users can press "s" and "w", respectively, to alternate between the effects. The document listens to keydown events and passes a boolean into `GameView.start()` to instruct `GameView` on what to render.
 
 ![ripple]
 
 ### Changing Frame Rates
 
-Users can press "a" and "d" to slow down and speed up the frame rate, respectively. The initial frame rate is set at 60 fps, which is achieved by passing 1000/60 to window.setInterval(). The frame rate increments or decrements by 10 fps each time "a" or "d" is pressed. Limits are set at 10 fps and 100 fps. A rate variable is passed to GameView.start() to set the interval each time.
+Users can press "a" and "d" to slow down and speed up the frame rate, respectively. The initial frame rate is set at 60 fps, which is achieved by passing 1000/60 to window.setInterval(). The frame rate increments or decrements by 10 fps each time "a" or "d" is pressed. Limits are set at 10 fps and 100 fps. A rate variable is passed to `GameView.start()` to set the interval each time.
 
 ### Resetting Values
 
