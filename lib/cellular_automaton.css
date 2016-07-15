@@ -7,8 +7,6 @@ section, img, div, p, span, article, footer {
   outline: 0;
   font-family: 'Maison Neue', sans-serif;
   font-size: 14px;
-  /*font-family: 'Slabo 27px', serif;*/
-  /*font-family: 'Open Sans Condensed', sans-serif;*/
   text-align: inherit;
   text-decoration: inherit;
   vertical-align: inherit;
@@ -57,13 +55,9 @@ body {
 
 .description {
   text-align: center;
-  /*text-align: left;*/
   padding-top: 50px;
   padding-bottom: 50px;
-  /*padding-left: 300px;*/
-  /*color: #fff;*/
   color: #222;
-  /*background: #222;*/
   border-bottom: 1px solid #F1F1F1;
 }
 
@@ -107,7 +101,6 @@ body {
   color: white;
   line-height: 1.8em;
   font-size: 12px;
-  /*font-weight: 600;*/
   letter-spacing: 0.1em;
 }
 
