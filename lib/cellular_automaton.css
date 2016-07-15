@@ -64,6 +64,7 @@ body {
   /*color: #fff;*/
   color: #222;
   /*background: #222;*/
+  border-bottom: 1px solid #F1F1F1;
 }
 
 .description h1 {
@@ -78,6 +79,7 @@ body {
   margin-bottom: 60px;
   letter-spacing: 0.3em;
 }
+
 .description p {
   margin-bottom: 20px;
   font-size: 18;
@@ -96,4 +98,24 @@ body {
   border: 1px solid #ff5050;
   margin-right: 10px;
   color: #ff5050;
+}
+
+.aboutme {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background: #ff5050;
+  color: white;
+  line-height: 1.8em;
+  font-size: 12px;
+  /*font-weight: 600;*/
+  letter-spacing: 0.1em;
+}
+
+.icons i{
+  font-size: 40px;
+  padding: 5px;
+}
+
+a {
+  color: white;
 }
