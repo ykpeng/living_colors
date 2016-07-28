@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>Living Colors</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Slabo+27px" rel="stylesheet">
+    <script src="https://use.fontawesome.com/1e4f616b98.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./lib/cellular_automaton.css" media="screen" />
+  </head>
+
+  <body>
+    <canvas></canvas>
+    <section class="instructions">
+    </section>
+    <section class="description">
+      <h1>Living colors</h1>
+      <h2>A visual experiment</h2>
+      <p>Each cell follows three rules: </p>
+      <ul>
+        <li><span class="number">1</span>move toward the average color of its neighbors</li>
+        <li><span class="number">2</span>move toward the average rate of change in color of its neighbors</li>
+        <li><span class="number">3</span>maintain minimum separation between its color and the colors of its neighbors</li>
+      </ul>
+    </section>
+    <section class="aboutme">
+      <p>Original concept by <a href="http://rectangleworld.com/blog/archives/587">Rectangle World</a></p>
+      <p>Developed by Yi-Ke Peng</p>
+      <div class="icons">
+        <a href="https://github.com/ykpeng"><i class="fa fa-github" aria-hidden="true"></i></a>
+        <a href="https://linkedin.com/in/ykpeng89"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+      </div>
+    </section>
+    <script type="application/javascript" src="lib/bundle.js"></script>
+  </body>
+</html>
