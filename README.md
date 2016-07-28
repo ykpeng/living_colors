@@ -2,7 +2,7 @@
 
 [Living Colors live][github]
 
-[github]: https://ykpeng.github.io
+[github]: https://ykpeng.github.io/living_colors
 
 Living Colors is a cellular automaton that integrates Boid's flocking algorithm to create a grid of cells that evolve endlessly in color. The project is built with JavaScript, jQuery and CSS.
 
